@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Image from '../images/habibPro.png'
-import SlideVideo  from "./SlideVideo"
+// import SlideVideo  from "./SlideVideo"
 const MainHeader = () => {
   return (
    <header className="main__header">
@@ -9,8 +9,8 @@ const MainHeader = () => {
       <div className="main__header-right">
         {/* <div className="main__header-circle"></div> */}
         <div className="main__header-image">
-          {/* <img src={Image} alt="Main Header Image" /> */}
-          <SlideVideo  />
+          <img src={Image} alt="Main Header Image" />
+     
         </div>
       </div>
       <div className="main__header-left">
