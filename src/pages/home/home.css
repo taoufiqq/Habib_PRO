@@ -330,7 +330,7 @@ footer {
 }
 
 /* ============================= MEDIA QUERIES (small screens) ============================== */
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 680px) {
 
     /* MAIN HEADER */
     .main__header {
