@@ -330,6 +330,20 @@ footer {
 }
 
 /* ============================= MEDIA QUERIES (small screens) ============================== */
+@media screen and (max-width : 900px) {
+    #main__header-slide {
+        height: 400px !important;
+        width: 520px !important;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    #main__header-slide {
+        height: 280px !important;
+        width: 380px !important;
+    }
+}
+
 @media screen and (max-width : 680px) {
 
     /* MAIN HEADER */
